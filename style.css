@@ -1,0 +1,21 @@
+/* player design  */
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    /* justify-content: center; */
+}
+
+.player{
+    display: flex;
+    align-items:center ;
+    padding: 10px;
+    /* flex-wrap: wrap; */
+}
+
+.player img{
+    width: 56px;    
+    height: 56px;
+    margin-right: 10px;
+}
