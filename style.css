@@ -142,3 +142,30 @@ body{
 .fa-star.empty{
     color:#AEAEAE;
 }
+
+
+
+/* medai quries */
+
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .players, .blogs, .course{
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        
+    }
+
+    .player, .blog, .latest-courses{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .line{
+        width: 100%;
+    }
+
+    
+}
